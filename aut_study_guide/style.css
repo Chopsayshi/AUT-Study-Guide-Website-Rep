@@ -1,0 +1,246 @@
+/* * {
+    border: 1px solid black;
+} */
+
+body {
+    margin: 0px;
+    margin: 0px;
+    background-color: #CDCDCD;
+}
+
+.top_bar {
+    background-color: #F07D00;
+    height: 20px;
+    border-bottom: 20px solid #71AD30;
+}
+
+/*Still trying to figure out how to get logo on top of header*/
+.aut_logo {
+    color: white;
+    background-color: black;
+    max-width: fit-content;
+    padding: 8px 15px;
+    margin-left: 10%;
+    line-height: 0px;
+    position: absolute;
+    z-index: 3;
+}
+
+nav {
+    display: flex;
+    background-color: #ffffff;
+    padding-left: 20%;
+}
+
+nav li {
+   list-style: none;
+   display: inline;
+   padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/**/
+.main {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    min-width: 28%;
+    margin: 1%;
+}
+
+.overview-card {
+    background-color: #ffffff;
+    font-size: 14px;
+    box-shadow: 1px 5px 5px #848484;
+    margin: 3% 0%;
+}
+
+.overview-card h2 {
+    font-size: 15px;
+    padding: 2%;
+    margin: 0px;
+}
+
+#overview-core h2 {
+    background-color: #F07D00;
+}
+
+#overview-major-one h2 {
+    background-color: #F07D00;
+}
+
+#overview-major-two h2 {
+    background-color: #71AD30;
+}
+
+.overview-card h3 {
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 0px;
+}
+
+.overview-card a {
+    color: black;
+}
+
+.overview-card ul {
+    padding-right: 2%;
+}
+
+.side-nav {
+    text-align: center;
+}
+
+.side-nav li {
+   list-style: none;
+   display: inline;
+   padding: 2%;
+   background-color: #ffffff;
+   box-shadow: 1px 5px 5px #848484;
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/**/
+.right {
+    margin: 2% 1% 0% 0%;
+}
+
+.description {
+    display: flex;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    box-shadow: 1px 5px 5px #848484;
+}
+
+.description-header {
+    background-color: #F07D00;
+    padding: 2%;
+    min-width: 18%;
+    text-align:center;
+}
+
+.description h1 {
+    font-size: 24px;
+}
+
+.description p {
+    font-size: 14px;
+}
+
+.description-content {
+    margin: 1%;
+}
+
+.pannel-buttons {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.pannel-buttons button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#core-btn {
+    background-color: #EEAD66;
+    padding: 1%;
+    border-style: none;
+    border-radius: 5%;
+}
+
+#core-btn:hover {
+    background-color: #F07D00;
+}
+
+#major-one-btn {
+    background-color: #EEAD66;
+    padding: 1%;
+    border-style: none;
+    border-radius: 5%;
+}
+
+#major-one-btn:hover {
+    background-color: #F07D00;
+}
+
+#major-two-btn {
+    background-color: #91B669;
+    padding: 1%;
+    border-style: none;
+    border-radius: 5%;
+}
+
+#major-two-btn:hover {
+    background-color: #71AD30;
+}
+
+.pannel {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    padding: 2%;
+}
+
+.subjects-card {
+    padding: 2%;
+    margin: 0% 1% 1% 0%;
+    background-color: #CDCDCD;
+    max-width: 40%;
+}
+
+.subjects-card h2 {
+    margin: 0px;
+}
+
+.subjects-card li {
+   list-style: none;
+   display: inline;
+}
+
+.subjects-card a {
+    color: #000000;
+}
+
+/**/
+
+footer {
+    background-color: #ffffff;
+    text-align: right;
+}
+
+
+footer li {
+   list-style: none;
+   display: inline;
+   padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #ffffff;
+    background-color: #71AD30; 
+    border-bottom: 20px solid #F07D00;
+}
+
